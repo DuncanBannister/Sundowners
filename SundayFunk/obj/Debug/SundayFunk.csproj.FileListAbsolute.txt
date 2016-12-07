@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\SundayFunk\RealFunk\SundayFunk\SundayFunk\bin\SundayFunk.dll.config
+C:\inetpub\wwwroot\SundayFunk\RealFunk\SundayFunk\SundayFunk\bin\SundayFunk.dll
+C:\inetpub\wwwroot\SundayFunk\RealFunk\SundayFunk\SundayFunk\bin\SundayFunk.pdb
+C:\inetpub\wwwroot\SundayFunk\RealFunk\SundayFunk\SundayFunk\obj\Debug\SundayFunk.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\SundayFunk\RealFunk\SundayFunk\SundayFunk\obj\Debug\SundayFunk.dll
+C:\inetpub\wwwroot\SundayFunk\RealFunk\SundayFunk\SundayFunk\obj\Debug\SundayFunk.pdb

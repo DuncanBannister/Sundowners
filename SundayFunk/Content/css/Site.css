@@ -1,0 +1,455 @@
+﻿body {
+    /*padding-top: 80px;
+    padding-bottom: 20px;*/
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,104,48,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,104,48,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,104,48,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,104,48,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,104,48,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+    background: radial-gradient(ellipse at center, rgba(255,104,48,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF6830', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black;
+}
+
+.container {
+    margin-right: 150px !important;
+    margin-left: 150px !important;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    /*max-width: 280px;*/
+}
+
+
+.logo {
+    position: absolute;
+    top: -20px;
+    left: -15px;
+}
+
+.home-bg {
+    background: url('../images/home5.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.contact-bg {
+    background: url('images/contact4.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-position: calc(100% - 0px) calc(100% - -234px);
+}
+
+
+.mid-info {
+    padding-left: 5%;
+    height: 600px;
+    background-color: black;
+    font-size: 22px;
+    color: lightgrey;
+    font-family: inherit;
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    /*background-color: red;*/
+    position: absolute;
+    top: -125px;
+    /*left: 115px;*/
+    border: 2px solid darkorange;
+    /* width and height can be anything, as long as they're equal */
+}
+
+.circ1 {
+    background: url('../images/home1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.circ2 {
+    background: url('../images/cricle1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.circ3 {
+    background: url('../images/home.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.event {
+    height: 300px;
+    width: 95%;
+    position: relative;
+  
+}
+
+    .event .event-banner {
+        height: 150px;
+        width: 100%;
+       
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+
+.banner-1 {
+    background: url('../../Events/December 2016/1.jpg') no-repeat center center;
+}
+
+.banner-2 {
+    background: url('../../Events/December 2016/1.jpg') no-repeat center center;
+}
+
+.event .event-content {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.7rem;
+
+}
+
+
+
+.social-container {
+    height: 150px;
+    background-color: #262526;
+    padding: 50px 80px;
+}
+
+    .social-container .facebook {
+        margin-top: -30px;
+    }
+
+    .social-container .instagram {
+        margin-top: -15px;
+    }
+
+.event-dets {
+    height: 150px;
+    background-color: black;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 30px;
+}
+
+    .event-dets span {
+        font-size: 18px;
+        color: #545454;
+        /* font-weight: 600; */
+        letter-spacing: 5px;
+    }
+
+    .event-dets .top-span {
+        font-weight: 700 !important;
+        color: darkorange !important;
+        font-size: 25px !important;
+    }
+
+    .event-dets .btm-span {
+        color: white !important;
+    }
+
+.google-map {
+    /*padding: 0;*/
+}
+
+.reach-out {
+    height: 550px;
+    background-color: black;
+}
+
+    .reach-out h2 {
+        padding-top: 25px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .reach-out img {
+        padding: 0 25px;
+    }
+
+    .reach-out .contact-row {
+        margin-top: 15px;
+    }
+
+        .reach-out .contact-row .form-row {
+            margin-top: 20px;
+        }
+
+            .reach-out .contact-row .form-row input {
+                padding: 10px;
+                border-radius: 5px;
+                color: white;
+                width: 90%;
+                background-color: black;
+            }
+
+                .reach-out .contact-row .form-row input:focus {
+                    border-color: none !important;
+                    background-color: #262526;
+                }
+
+
+            .reach-out .contact-row .form-row .contact-button {
+                width: 20%;
+                margin-right: 30px;
+            }
+
+                .reach-out .contact-row .form-row .contact-button:hover {
+                    background-color: #262526;
+                    color: white;
+                }
+
+    .reach-out .contact-textarea {
+        width: 95%;
+        border-radius: 5px;
+        background-color: black;
+        border: 2px solid white;
+        height: 90px;
+        color: white;
+        padding: 10px;
+        max-width: none;
+        max-height: 90px;
+    }
+
+
+        .reach-out .contact-textarea:focus {
+            background-color: #262526;
+        }
+
+#google-Map {
+    width: 100%;
+    height: 500px;
+}
+
+/*.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: black;
+    padding-top: 15px;
+
+    padding-left: 20px;
+    color: white;
+}*/
+
+/* - - - MOBILE - - - */
+
+
+
+
+@media screen and (max-width: 426px) {
+    #funk-Logo {
+        display: none;
+    }
+
+    .home-bg {
+        background-image: url('images/mobile/homeb.png')no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .navbar-toggle {
+        margin-top: 23px;
+    }
+
+    .logo {
+        padding: 10px 15px;
+    }
+
+    .navbar-nav {
+        float: left !important;
+    }
+
+    /*.container {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }*/
+
+    .circle-holder {
+        display: none;
+    }
+
+    .mid-info {
+        height: 260px;
+        padding: 10px;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    .social-container {
+        height: 265px;
+        background-color: #262526;
+        padding: 20px 55px;
+    }
+
+        .social-container .insta-col {
+            margin-top: 35px;
+        }
+
+    .event-dets {
+        height: 460px;
+    }
+
+        .event-dets .where-col {
+            margin-top: 40px;
+        }
+
+    #google-Map {
+        width: 100%;
+        height: 250px;
+    }
+
+    .contact-bg {
+        background: url('images/contact4.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .reach-out .contact-row .col-xs-12 {
+        margin-bottom: 10px;
+    }
+
+    .reach-out .contact-row .form-row input {
+        width: 100%;
+    }
+
+    .reach-out {
+        height: 900px;
+    }
+
+        .reach-out .contact-textarea {
+            width: 100%;
+        }
+
+        .reach-out .contact-row .form-row .contact-button {
+            margin-right: 0;
+            width: 25%;
+        }
+}
+
+@media screen and (min-width: 325px) and (max-width: 475px) {
+    .reach-out {
+        height: 775px;
+    }
+
+    .social-container {
+        height: 265px;
+        background-color: #262526;
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #funk-Logo {
+        display: none;
+    }
+
+    .home-bg {
+        background-image: url('images/mobile/homeb.png')no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .mid-info {
+        height: 310px;
+        padding: 10px;
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    #google-Map {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+
+.no-p {
+    padding: 0;
+}
+
+.no-m {
+    margin: 0;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-t-160 {
+    margin-top: 160px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
